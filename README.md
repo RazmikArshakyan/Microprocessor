@@ -32,6 +32,18 @@ CORE0 performs the basic actions of an execution core:
 - B: Value (8-bit) of the second operand supplied to the ALU.
 - R: Value (8-bit) of the result of the ALU.
 
+### Operation Example
+
+To illustrate the functionality of CORE0, consider the following instructions:
+
+| Instruction | OP  | N0 | N1 | A         | B         | R         |
+|-------------|-----|----|----|-----------|-----------|-----------|
+| MOV         | 11  | 000| 100| 00000000  | 00000100  | 00000100  |
+| MOV         | 11  | 010| 011| 00000000  | 00000011  | 00000011  |
+| ADD         | 00  | 000| 010| 00000100  | 00000011  | 00000111  |
+| MOV         | 11  | 111| 111| 00000000  | 00000111  | 00000111  |
+| SUB         | 01  | 000| 111| 00000111  | 00000111  | 00000000  |
+
 ## Testing Instructions
 
 To test the circuit:
