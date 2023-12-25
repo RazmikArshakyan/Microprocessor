@@ -4,6 +4,34 @@
 
 The objective of this mini-project is to develop a simple and almost complete microprocessor with a focus on a small number of registers and a limited instruction set. Memory management will not be carried out initially. The project begins with creating simple multiplexers, adders, and decoders, progressing towards building the complete microprocessor circuit.
 
+## Software Requirements
+
+To work on this project, you will need to install Logisim Evolution, a digital logic simulator. Follow the instructions below for installation.
+
+### Logisim Evolution Installation
+
+1. **Download Logisim Evolution:**
+   - Download the Logisim Evolution software from the official repository.
+     - Repository Link: [Logisim Evolution](https://github.com/reds-heig/logisim-evolution)
+
+2. **Run Logisim Evolution:**
+   - If you have Java installed on your system, you can run Logisim Evolution by typing the following command in the terminal or command prompt:
+     ```bash
+     java -jar path/to/logisim-evolution.jar
+     ```
+     Replace `path/to/logisim-evolution.jar` with the actual path to the downloaded Logisim Evolution JAR file.
+
+   - On Linux, you can use the provided command:
+     ```bash
+     java -jar logisim-evolution.jar
+     ```
+
+   - Alternatively, you can double-click the JAR file if your operating system supports this method.
+
+3. **Explore the Microprocessor Project:**
+   - Open the microprocessor project file provided in this repository using Logisim Evolution.
+   - Start exploring the various components and circuits of the microprocessor.
+
 ## ALU (Arithmetic Logic Unit)
 
 ### Operation Codes and Results
